@@ -1,0 +1,23 @@
+JAVASCRIPT
+Explain what is declaration, definition and initialization in JS?
+
+DECLARATION:
+It is variable or function that can be declared any number of times. 
+The variable is registered using a given name within the corresponding. 
+It gives information to the compiler like, name of the variable, type of value it holds and the initial value if any it takes. 
+For example function a;
+
+DEFINITION:
+It’s a variable that says where the variable gets stored like for example,
+ memory for the variable is allocated during the definition of the variable. 
+For example function a: {return a ;}
+
+INITIALIZATION:
+When you declare a variable it is automatically initialized, 
+which means memory is allocated for the variable by the JavaScript engine.
+For example var things = “code”;
+The variable “things “is initialized with “code”
+
+
+
+
