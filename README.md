@@ -8,3 +8,10 @@ Its one of the core technologies of the World Wide Web.
 
 [mordern javascrit](https://javascript.info/)
 
+## How to get started
+You dont neccesarily need to download anything, lets starts.
+>$git add .
+>$git commit -m "message"
+>$git push origin master
+
+arthour : Naima Hassan
