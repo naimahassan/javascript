@@ -4,7 +4,7 @@
 >Its one of the core technologies of the World Wide Web.
 
 
-##link to javascript turorials
+#link to javascript turorials
 
-[mordern js](https://javascript.info/)
+[mordern javascrit](https://javascript.info/)
 
