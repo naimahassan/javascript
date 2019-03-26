@@ -1,0 +1,13 @@
+fruits_list =['mango','banana','apple','melon','lemon'];
+function printFruits(fruits_list){
+console.log(fruits_list);
+}
+
+(5) ["mango", "banana", "apple", "melon", "lemon"]
+
+var fruit_num = prompt ("from this fruits 0-4 pick your favorite");
+
+console.log(fruits_list[fruit_num]);
+
+function favFruit(fruits_list,fruit_num){ alert(fruits_list[fruit_num]);}
+//picked 3 and got 'melon'
