@@ -1,0 +1,33 @@
+fruits = {"mango":50,"orange":60,"pineapple":40,"apple":30,"melon":20,"banana":20}
+
+{mango: 50, orange: 60, pineapple: 40, apple: 30, melon: 20, …}
+fruits["banana"]
+20
+
+var number = 2;
+
+undefined
+
+fruits["melon"]*number
+
+40
+
+number + " pineapple " + "is Ksh." + fruits["pineapple"]*quantity
+"
+2 pineapple is Ksh.80"
+
+function calculate(fruits,quantity)
+{
+fruits = {"mango":50,"orange":60,"pineapple":40,"apple":30,"melon":20,"banana":20};
+
+ var price = fruits[fruits]*quantity;
+
+ console.log(quantity + " " + fruits + "is Ksh. " + price);}
+
+undefined
+
+calculate("apple",2);
+
+VM1014:4 2 [object Object]is Ksh. NaN
+
+undefined
