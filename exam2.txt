@@ -143,15 +143,25 @@ console.log(farm1.farms)
 
 let vendor1= new Mkulima();
 farm1.addVendor(1234,"whoever",0701038967);
+console.log(vendor1.vendors)
 farm1.removeVendor(1234);
+console.log(vendor1.vendors)
 farm1.getVendor(1234);
+console.log(vendor1.vendors)
 farm1.updateVendor(1234,"whoever",0701038967);
+console.log(vendor1.vendors)
 farm1.getVendor(1234);
+console.log(vendor1.vendors)
 
 
 let pruduct1= new Mkulima();
 farm1.addProduct(2345,"maize",2000);
+console.log(product1.products)
 farm1.removeProduct(2345);
+console.log(product1.products)
 farm1.getProduct(2345);
+console.log(product1.products)
 farm1.updateProduct(2345,"maize",2000);
+console.log(product1.products)
 farm1.getProduct("2021"2345
+console.log(product1.products)
