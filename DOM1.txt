@@ -1,0 +1,25 @@
+var body=document.body
+body.style.backgroundColor='silver'
+
+
+var title=document.getElementById("title")
+title.style.color = 'green'
+
+document.getElementById("cap").style.textTransform = 'uppercase'
+var head =document.getElementById("cap");
+cap[0].style.textTransform = "uppercase";
+
+
+var li=document.createElement("li")
+var text =document.createTextNode("Berry")
+li.appendChild(text)
+var ul = document.getElementById("fruList")
+ul.appendChild(li)
+
+
+var li=document.createElement("li")
+var text =document.createTextNode("Persley")
+li.appendChild(text)
+var ul = document.getElementById("vegList")
+ul.appendChild(li)
+
