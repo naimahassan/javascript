@@ -1,0 +1,150 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Greens Kiosk</title>
+</head>
+<body>
+  <h1 id="title">Welcome to Greens Kiosk</h1>
+  <p>We sell fruits and vegetables</p>
+  
+  <input id="addfruit" type="text" size="20"/> 
+<button class="friut" id="btnAddfrt" value="Addfruit" onclick="addFruit()" >Fruits</button> 
+
+ <div class="frtList">
+
+ <ul id=frlst>
+     <li>mangoes</li>
+     <li>bananas</li>
+     <li>melons</li>
+   </ul>
+
+</div>
+
+   <input id="addvegs" type="text" size="20"/>
+<button class="veges" id="Addveg" value="Add" onclick="addVeg()" >Vegetables</button> 
+  <div class="vegList"
+  <ul id="vegList">
+    <li>Onions</li>
+    <li>Tomatoes</li>
+    <li>Kales</li>
+  </ul>
+  </div>
+
+
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Greens Kiosk</title>
+</head>
+<body>
+  <h1 id="title">Welcome to Greens Kiosk</h1>
+  <p>We sell fruits and vegetables</p>
+  
+  <input id="addfruit" type="text" size="20"/> 
+<button class="friut" id="btnAddfrt" value="Addfruit" onclick="addFruit()" >Fruits</button> 
+
+ <div class="frtList">
+
+ <ul id=frlst>
+     <li>mangoes</li>
+     <li>bananas</li>
+     <li>melons</li>
+   </ul>
+
+</div>
+
+   <input id="addvegs" type="text" size="20"/>
+<button class="veges" id="Addveg" value="Add" onclick="addVeg()" >Vegetables</button> 
+  <div class="vegList"
+  <ul id="vegList">
+    <li>Onions</li>
+    <li>Tomatoes</li>
+    <li>Kales</li>
+  </ul>
+  </div>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+ var toggle =()=>{
+ var title = document.getElementById("title");
+ title.style.color= title.style.color=="green"? "silver":"green"
+
+};
+setInterval(toggle,3000);
+
+
+var collapse = document.getElementsByClassName("friut");var i;
+
+
+for (i = 0; i < collapse.length; i++) {
+ collapse[i].addEventListener("click", function() {
+   this.classList.toggle("active");
+   var fruitList = this.nextElementSibling;
+   if (fruitList.style.display === "block") {
+     fruitList.style.display = "none";
+   } else {
+     fruitList.style.display = "block";
+   }
+ });
+}
+
+var collapseTwo = document.getElementsByClassName("veges");var i;
+
+
+for (i = 0; i < collapseTwo.length; i++) {
+ collapseTwo[i].addEventListener("click", function() {
+   this.classList.toggle("active");
+   var vegList = this.nextElementSibling;
+   if (vegList.style.display === "block") {
+     vegList.style.display = "none";
+   } else {
+     vegList.style.display = "block";
+   }
+ });
+}
+
+
+
+function addFruit(){
+       var li = document.createElement("LI");  
+       var input = document.getElementById("addfruit");
+       li.innerHTML = input.value;
+       input.value = "";
+
+       document.getElementById("frlst").appendChild(li);
+
+}
+
+
+
+
+
+
+function addVeg(){
+       var li = document.createElement("LI");  
+       var input = document.getElementById("addvegs");
+       li.innerHTML = input.value;
+       input.value = "";
+
+       document.getElementById("vegList").appendChild(li);
+
+}
+
+
+
+
